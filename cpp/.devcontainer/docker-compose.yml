@@ -1,6 +1,7 @@
 services:
   cpp:
-    build: .
+    # build: .
+    image: ghcr.io/ecto0310/development_container.cpp:main
     volumes:
       - ../:/home/docker/cpp
     tty: true
