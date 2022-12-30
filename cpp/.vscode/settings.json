@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Hybrid",
+    "C_Cpp.clang_format_style": "Google",
+    "files.exclude": {
+        ".devcontainer": true,
+        ".vscode": true
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "cpp",
+    "dockerComposeFile": [
+        "./docker-compose.yml"
+    ],
+    "service": "cpp",
+    "remoteUser": "docker",
+    "workspaceFolder": "/home/docker/cpp",
+    "extensions": [
+        "shanejarvie.hybrid-theme",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools"
+    ],
+    "shutdownAction": "stopCompose"
+}

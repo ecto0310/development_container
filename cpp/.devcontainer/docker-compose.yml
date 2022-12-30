@@ -1,0 +1,6 @@
+services:
+  cpp:
+    build: .
+    volumes:
+      - ../:/home/docker/cpp
+    tty: true
