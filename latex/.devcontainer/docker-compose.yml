@@ -1,7 +1,7 @@
 services:
   latex:
-    build: .
-    # image: ghcr.io/ecto0310/development_container.latex:main
+    # build: .
+    image: ghcr.io/ecto0310/development_container.latex:main
     volumes:
       - ../:/home/docker/work
     tty: true
