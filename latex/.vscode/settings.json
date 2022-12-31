@@ -1,0 +1,31 @@
+{
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "ptex2pdf(uplatex)",
+            "tools": [
+                "ptex2pdf(uplatex)",
+                "ptex2pdf(uplatex)"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "ptex2pdf(uplatex)",
+            "command": "ptex2pdf",
+            "args": [
+                "-u",
+                "-l",
+                "-interaction=nonstopmode",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.viewer.pdf.internal.port": 40000,
+    "workbench.colorTheme": "Hybrid",
+    "files.exclude": {
+        ".devcontainer": true,
+        ".vscode": true
+    }
+}
