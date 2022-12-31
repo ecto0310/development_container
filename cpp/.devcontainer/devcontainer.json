@@ -5,7 +5,7 @@
     ],
     "service": "cpp",
     "remoteUser": "docker",
-    "workspaceFolder": "/home/docker/cpp",
+    "workspaceFolder": "/home/docker/work",
     "extensions": [
         "shanejarvie.hybrid-theme",
         "ms-vscode.cpptools-extension-pack",

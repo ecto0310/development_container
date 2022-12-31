@@ -18,4 +18,4 @@ RUN pacman -U --noconfirm $(ls *.pkg.tar.zst) && \
     rm -rf /home/docker/tmp
 
 USER docker
-WORKDIR /home/docker/cpp
+WORKDIR /home/docker/work
